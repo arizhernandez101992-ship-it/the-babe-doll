@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="Hero flatlay - black & gold">
+  <style>
+    .bg{fill:#ffffff}.muted{fill:#8b8b8b;font-family:Inter,Arial;font-size:15px}.title{fill:#0B0B0B;font-family:Inter,Arial;font-weight:600;font-size:36px}
+    .btn{fill:#C9A66B}.btn-text{fill:#0B0B0B}
+  </style>
+  <rect width="100%" height="100%" class="bg"/>
+  <g transform="translate(620,40)">
+    <rect x="0" y="0" width="240" height="150" rx="8" fill="#f8fafc"/>
+    <rect x="260" y="0" width="240" height="150" rx="8" fill="#f8fafc"/>
+    <rect x="0" y="170" width="240" height="150" rx="8" fill="#f8fafc"/>
+    <rect x="260" y="170" width="240" height="150" rx="8" fill="#f8fafc"/>
+  </g>
+  <text x="64" y="160" class="title">Selección minimal para cada espacio</text>
+  <rect x="64" y="240" width="180" height="44" rx="10" class="btn"/>
+  <text x="96" y="272" class="btn-text" font-family="Inter,Arial" font-weight="700">Explorar</text>
+</svg>

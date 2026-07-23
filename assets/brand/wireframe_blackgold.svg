@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Wireframe THE BABE DOLL - black & gold accents">
+  <style>
+    .bg{fill:#ffffff}
+    .text{fill:#0B0B0B;font-family:Inter,Arial,sans-serif}
+    .muted{fill:#8b8b8b;font-family:Inter,Arial,sans-serif;font-size:14px}
+    .accent{fill:#C9A66B}
+    .card{fill:#fff;stroke:#efefef}
+  </style>
+  <rect width="100%" height="100%" class="bg"/>
+  <text x="56" y="72" class="text" font-size="22" font-weight="700" letter-spacing="2">THE BABE DOLL</text>
+  <text x="64" y="170" class="text" font-size="40" font-weight="600">Diseño esencial para tu día a día</text>
+  <rect x="64" y="238" width="160" height="44" rx="10" fill="#0B0B0B"/>
+  <text x="94" y="266" fill="#fff" font-family="Inter,Arial" font-weight="700">Ver colección</text>
+  <rect x="900" y="120" width="360" height="340" rx="14" fill="#f3f4f6"/>
+  <text x="980" y="300" class="muted" font-size="16">Hero image / producto</text>
+  <text x="64" y="500" class="text" font-size="20" font-weight="600">Colección destacada</text>
+  <g transform="translate(64,540)">
+    <rect x="0" y="0" width="240" height="260" rx="10" class="card"/>
+    <rect x="260" y="0" width="240" height="260" rx="10" class="card"/>
+    <rect x="520" y="0" width="240" height="260" rx="10" class="card"/>
+    <rect x="780" y="0" width="240" height="260" rx="10" class="card"/>
+  </g>
+  <!-- footer -->
+  <text x="64" y="860" class="muted">© THE BABE DOLL · Todos los derechos reservados</text>
+</svg>
