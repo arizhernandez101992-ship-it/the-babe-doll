@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "settings": {
+        "heading": "Welcome to The Babe Doll",
+        "subheading": "Your fashion destination"
+      }
+    }
+  },
+  "order": ["banner"]
+}

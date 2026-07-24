@@ -1,0 +1,22 @@
+<div class="product-container">
+  <h1>{{ product.title }}</h1>
+  <p class="price">{{ product.price | money }}</p>
+  <div class="product-image">
+    {% if product.featured_image %}
+      {{ product.featured_image | img_url: '500x500' | img_tag: product.title }}
+    {% endif %}
+  </div>
+  <div class="product-description">
+    {{ product.description }}
+  </div>
+  <form method="post" action="/cart/add">
+    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" />
+    <button type="submit">Add to Cart</button>
+  </form>
+</div>
+
+{% schema %}
+{
+  "name": "Product"
+}
+{% endschema %}

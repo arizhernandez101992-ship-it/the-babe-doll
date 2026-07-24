@@ -1,0 +1,9 @@
+{
+  "current": {
+    "color_primary": "#000000",
+    "color_secondary": "#FFFFFF",
+    "font_heading": "serif",
+    "font_body": "sans-serif"
+  },
+  "presets": {}
+}

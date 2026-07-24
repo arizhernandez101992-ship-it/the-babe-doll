@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="header-wrapper">
+    <div class="logo">
+      <a href="/">{{ shop.name }}</a>
+    </div>
+    <nav class="main-nav">
+      {% for link in linklists.main-menu.links %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+    <div class="header-right">
+      <a href="/cart">Cart ({{ cart.item_count }})</a>
+    </div>
+  </div>
+</header>

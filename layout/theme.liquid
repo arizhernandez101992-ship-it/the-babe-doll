@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page_title }}</title>
+    <link rel="canonical" href="{{ canonical_url }}" />
+    {{ content_for_header }}
+    {{ 'base.css' | asset_url | stylesheet_tag }}
+  </head>
+  <body>
+    <header>
+      <h1>{{ shop.name }}</h1>
+    </header>
+    <main id="MainContent" class="content-for-index">
+      {{ content_for_layout }}
+    </main>
+    <footer>
+      <p>&copy; {{ 'now' | date: '%Y' }} {{ shop.name }}. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<div class="collection-container">
+  <h1>{{ collection.title }}</h1>
+  <div class="products-grid">
+    {% for product in collection.products %}
+      <div class="product-card">
+        <a href="{{ product.url }}">
+          {% if product.featured_image %}
+            {{ product.featured_image | img_url: '300x300' | img_tag: product.title }}
+          {% endif %}
+          <h2>{{ product.title }}</h2>
+          <p class="price">{{ product.price | money }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection"
+}
+{% endschema %}

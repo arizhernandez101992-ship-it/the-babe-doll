@@ -1,0 +1,39 @@
+[
+  {
+    "name": "theme",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Colores"
+      },
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Color primario",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "color_secondary",
+        "label": "Color secundario",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "header",
+        "content": "Tipografía"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_heading",
+        "label": "Fuente de títulos",
+        "default": "serif"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_body",
+        "label": "Fuente de cuerpo",
+        "default": "sans-serif"
+      }
+    ]
+  }
+]
